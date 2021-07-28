@@ -1,8 +1,10 @@
 import json
+import os
 
 class Converter:
     def __init__(self, lang = 'zh'):
-        filename = 'data/%s_emoji_info.txt' % lang
+        prefix = os.path.dirname(os.path.abspath(__file__))
+        filename = '%s/data/%s_emoji_info.txt' % (prefix, lang)
         self.emoji_infos = {}
         for line in open(filename):
             item = json.loads(line)
