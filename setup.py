@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "emoji2lang",
-    version = "0.0.1",
+    version = "0.0.2",
     keywords = ("pip", "emoji", "human language", "convert"),
     description = "convert emoji to human language",
     long_description = "convert emoji to human language",
