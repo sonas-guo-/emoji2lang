@@ -8,3 +8,6 @@ convert emoji to human language
 >>> converter.convert("😀")
 '[嘿嘿]'
 ```
+
+# support language
+- chinese, lang = 'zh'
